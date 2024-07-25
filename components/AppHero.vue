@@ -7,12 +7,10 @@
       />
       <div>
         <h1 className="text-5xl font-bold">
-          SharkDesigner aka Chipla is here!
+          {{ $t("hero.title") }}
         </h1>
         <p className="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-          excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-          id nisi.
+          {{ $t("hero.description") }}
         </p>
         <button className="btn btn-primary">Get Started</button>
       </div>
