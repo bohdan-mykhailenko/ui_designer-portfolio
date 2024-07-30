@@ -9,16 +9,20 @@
           type="text"
           placeholder="Search"
           class="input input-bordered w-24 md:w-auto"
-        />
+        >
       </div>
       <AppLanguageSwitcher />
       <div class="dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+        <div
+          tabindex="0"
+          role="button"
+          class="btn btn-ghost btn-circle avatar"
+        >
           <div class="w-10 rounded-full">
             <img
               alt="Tailwind CSS Navbar component"
               src="https://mir-s3-cdn-cf.behance.net/user/138/0c82cb499401435.6657282893074.png"
-            />
+            >
           </div>
         </div>
         <ul

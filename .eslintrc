@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@nuxtjs",
+    "plugin:vue/vue3-recommended"
+  ],
+  "rules": {
+    "no-console": "error"
+  }
+}

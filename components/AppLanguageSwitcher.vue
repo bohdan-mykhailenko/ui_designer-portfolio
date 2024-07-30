@@ -4,21 +4,24 @@ import {
   PopoverContent,
   PopoverRoot,
   PopoverTrigger,
-} from "radix-vue";
-import { Languages } from "lucide-vue-next";
+} from 'radix-vue'
+import { Languages } from 'lucide-vue-next'
 
-const { locale, locales } = useI18n();
-const switchLocalePath = useSwitchLocalePath();
+const { locale: storedLocale, locales } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
 
 const availableLocales = computed(() => {
-  return locales.value.filter((i) => i.code !== locale.value);
-});
+  return locales.value.filter(locale => locale.code !== storedLocale.value)
+})
 </script>
 
 <template>
   <PopoverRoot>
-    <PopoverTrigger asChild>
-      <Languages color="teal" :size="32" />
+    <PopoverTrigger as-child>
+      <Languages
+        color="teal"
+        :size="32"
+      />
     </PopoverTrigger>
 
     <PopoverPortal>
