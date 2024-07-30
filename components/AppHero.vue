@@ -8,10 +8,10 @@
       />
       <div>
         <h1 class="text-5xl font-bold">
-          {{ $t('hero.title') }}
+          {{ $t("hero.title") }}
         </h1>
         <p class="py-6">
-          {{ $t('hero.description') }}
+          {{ $t("hero.description") }}
         </p>
         <button class="btn btn-primary">Get Started</button>
       </div>
