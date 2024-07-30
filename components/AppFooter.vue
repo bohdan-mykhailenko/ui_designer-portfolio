@@ -16,14 +16,12 @@
       </svg>
       <p>
         Dashka's Contora
-        <br>
+        <br />
         Providing reliable design since 2021
       </p>
     </aside>
     <nav>
-      <h6 class="footer-title">
-        Social
-      </h6>
+      <h6 class="footer-title">Social</h6>
       <div class="grid grid-flow-col gap-4">
         <a>
           <svg

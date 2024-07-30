@@ -18,10 +18,7 @@ const availableLocales = computed(() => {
 <template>
   <PopoverRoot>
     <PopoverTrigger as-child>
-      <Languages
-        color="teal"
-        :size="32"
-      />
+      <Languages color="teal" :size="32" />
     </PopoverTrigger>
 
     <PopoverPortal>
