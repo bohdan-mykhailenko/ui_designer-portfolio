@@ -1,5 +1,7 @@
 <template>
-  <AppHeader />
-  <AppHero />
-  <AppFooter />
+  <div>
+    <AppHeader />
+    <AppHero />
+    <AppFooter />
+  </div>
 </template>
